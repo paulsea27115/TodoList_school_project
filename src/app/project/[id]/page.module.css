@@ -1,0 +1,26 @@
+.container {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
+}
+
+.logo > img {
+  margin: auto;
+}
+
+.todoContainer {
+  width: 100%;
+}
