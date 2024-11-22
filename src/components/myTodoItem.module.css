@@ -1,0 +1,40 @@
+.myTodoItem {
+  width: 31.5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+
+  align-items: center;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+}
+
+.leftSide > h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.leftSide > p {
+  font-size: 10px;
+}
+
+.myTodoItem > p {
+  font-size: 12px;
+}
+
+.myTodoItem > p {
+  background-color: aliceblue;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}

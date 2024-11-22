@@ -1,7 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 3rem;
   box-sizing: border-box;
+}
+
+p.web-design {
+  background-color: #e5f6fe;
+  color: #18adfa;
 }
